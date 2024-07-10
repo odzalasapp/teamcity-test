@@ -70,4 +70,9 @@ object Test : BuildType({
             scriptContent = "echo 'manual'"
         }
     }
+
+    dependencies {
+        snapshot(Build) {
+        }
+    }
 })
