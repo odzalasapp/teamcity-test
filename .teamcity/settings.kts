@@ -63,4 +63,11 @@ object Test : BuildType({
     vcs {
         root(DslContext.settingsRoot)
     }
+
+    steps {
+        script {
+            id = "simpleRunner"
+            scriptContent = "echo 'manual'"
+        }
+    }
 })
