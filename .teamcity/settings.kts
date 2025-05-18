@@ -74,7 +74,7 @@ object Test : BuildType({
 
     features {
         approval {
-            approvalRules = "user:marcobehlerjetbrains"
+            approvalRules = "user:odzalasapp"
         }
     }
 
